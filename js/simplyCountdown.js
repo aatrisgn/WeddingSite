@@ -110,11 +110,11 @@
                 minutes: 0,
                 seconds: 0,
                 words: {
-                    days: 'day',
-                    hours: 'hour',
-                    minutes: 'minute',
-                    seconds: 'second',
-                    pluralLetter: 's'
+                    days: 'dage',
+                    hours: 'timer',
+                    minutes: 'minutter',
+                    seconds: 'sekunder',
+                    pluralLetter: ''
                 },
                 plural: true,
                 inline: false,
