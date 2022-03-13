@@ -150,8 +150,6 @@
             parameters.seconds
         );
 
-        console.log(parameters.month)
-        console.log(parameters.day)
 
         if (parameters.enableUtc) {
             targetDate = new Date(
@@ -181,8 +179,6 @@
                     nowUtc = new Date(now.getFullYear(), now.getMonth(), now.getDate(),
                         now.getHours(), now.getMinutes(), now.getSeconds());
                     secondsLeft = (targetDate - nowUtc.getTime()) / 1000;
-                    console.log(targetDate);
-                    console.log(nowUtc);
 
                 } else {
                     secondsLeft = (targetDate - now.getTime()) / 1000;
